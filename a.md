@@ -1,8 +1,55 @@
-이 작업 결과는 GitHub 공개 저장소에 업로드할 예정입니다. 따라서 폴더 구조, 파일명, README, 참고문헌, 그림 파일 관리까지 공개 저장소 기준으로 작성해주세요.작업 시작 전에 현재 연구 배경, 연구 목적, 논문 구조, 핵심 아이디어를 요약한 HANDOVER.md를 먼저 작성해주세요. 이후 모델이 변경되거나 대화가 끊겨도 다음 모델이 작업을 이어받을 수 있도록 해주세요.최종 결과물이 GitHub 리포지토리로 관리될 예정이므로 적절한 폴더 구조를 먼저 설계해주세요.03-Variable-Rearrangement-Invariance
-├─ README.md
-├─ HANDOVER.md
-├─ paper
-│  └─ paper.md
-├─ figures
-├─ references
-└─ notes생성하는 모든 그림은 원본 편집 파일(.drawio 등)을 보존할 수 있도록 관리 방안을 제안해주세요.현재 논문 범위를 벗어나는 아이디어는 별도 FUTURE_IDEAS.md에 정리해주세요.작업 중 연구 방향이 변경되거나 더 좋은 구조가 제안될 경우, 기존 구조를 삭제하지 말고 변경 이유를 기록해주세요.
+Repository Information 
+
+Repository Name: 3VariableRearrangementInvarianceMinorThesis
+
+This repository is a public GitHub research project and minor thesis.
+
+The final result will be uploaded to a public GitHub repository. Please organize all outputs with public research archive standards in mind.
+
+Task Requirements 
+
+Before writing the paper, create the following project structure and documentation:
+
+README.md HANDOVER.md paper/paper.md references/ figures/ notes/ FUTURE_IDEAS.md Handover Requirement 
+
+Create HANDOVER.md first.
+
+The handover document should contain:
+
+Research background Research motivation Core research question Current thesis structure Major findings and hypotheses Future work directions 
+
+The purpose is to allow another model or researcher to continue the project even if the conversation is interrupted.
+
+Research Topic 
+
+Title (working):
+
+Variable-Rearrangement-Based Interpretation of Karnaugh Map Patterns
+
+Main research question:
+
+Which structural properties of Karnaugh maps remain invariant under variable rearrangement?
+
+Sub-questions:
+
+How do visual patterns change under variable rearrangement? Which properties change and which remain unchanged? Can variable rearrangement be used as a tool for discovering hidden patterns? Scope 
+
+Focus on:
+
+Variable rearrangement Visual pattern transformation Structural invariance Pattern interpretation 
+
+Do not expand the main body into broader cognitive science, AI intuition, or human perception discussions.
+
+Instead, place out-of-scope ideas into FUTURE_IDEAS.md.
+
+Change Log Requirement 
+
+If a better structure or direction is proposed during writing, do not delete previous ideas.
+
+Record:
+
+Previous approach New approach Reason for change Writing Goal 
+
+Produce a research-style minor thesis suitable for GitHub publication and future academic extension.
+
+
