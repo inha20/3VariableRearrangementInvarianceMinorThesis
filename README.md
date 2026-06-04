@@ -1,6 +1,7 @@
 # 3VariableRearrangementInvarianceMinorThesis
 
 ## Variable-Rearrangement-Based Interpretation of Karnaugh Map Patterns
+
 *카르노맵 패턴의 변수 재배열 기반 해석: 구조적 불변성 연구*
 
 ---
@@ -11,11 +12,11 @@ This repository contains a minor thesis investigating the visual pattern changes
 
 This work is the **third** in a series of minor theses on visual patterns and structure in Karnaugh maps:
 
-| # | Repository | Focus |
-|---|---|---|
-| 1 | 1KarnaughMapVisualPatternAnalysisMinorThesis | Visual pattern discovery and classification |
-| 2 | 2SymmetricBooleanFunctionVisualPatternAnalysisMinorThesis | Pattern analysis of symmetric Boolean functions |
-| **3** | **3VariableRearrangementInvarianceMinorThesis** | **Structural invariance under variable rearrangement** |
+| #     | Repository                                                | Focus                                                  |
+| ----- | --------------------------------------------------------- | ------------------------------------------------------ |
+| 1     | [1KMapStructureInvariance](https://github.com/inha20/1KMapStructureInvariance) | Visual pattern discovery and classification            |
+| 2     | [2SymmetricBooleanFunctionMinorThesis](https://github.com/inha20/2SymmetricBooleanFunctionMinorThesis) | Pattern analysis of symmetric Boolean functions        |
+| **3** | **3VariableRearrangementInvarianceMinorThesis**           | **Structural invariance under variable rearrangement** |
 
 ---
 
@@ -59,12 +60,14 @@ This raises the question: *what is preserved?*
 Under variable rearrangement:
 
 **What changes:**
+
 - Position of patterns on the K-map grid
 - Orientation and direction of patterns
 - The apparent axis of symmetry
 - Overall visual layout
 
 **What is preserved:**
+
 - The logical function itself
 - The number of 1-cells (Hamming weight)
 - The causal origin of the pattern (e.g., XOR relationship → checkerboard structure)
@@ -98,9 +101,9 @@ The following are identified as promising future directions (see `FUTURE_IDEAS.m
 ## Research Program Context
 
 ```
-1KarnaughMapVisualPatternAnalysis
+1KMapStructureInvariance
             ↓
-2SymmetricBooleanFunctionVisualPatternAnalysis
+2SymmetricBooleanFunctionMinorThesis
             ↓
 3VariableRearrangementInvariance  ← (This repository)
             ↓
