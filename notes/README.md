@@ -58,3 +58,43 @@ Record:
 Previous approach New approach Reason for change Writing Goal
 
 Produce a research-style minor thesis suitable for GitHub publication and future academic extension.
+
+# b.md
+
+논문 본문은 한국어로 작성해주세요.
+
+요구사항:
+
+GitHub Markdown 형식 사용 제목과 본문은 한국어 필요 시 핵심 용어만 영어 병기 학부 소논문 수준의 학술 문체 사용 과도한 주장 지양 관찰 결과와 가설을 구분하여 서술 카르노맵 시각 패턴 연구의 연장선상에서 작성
+
+논문 구조는 Markdown 헤딩을 사용합니다.
+
+예시:
+
+초록 서론 연구 배경 연구 문제 연구 목적 연구 기여 이론적 배경
+
+...
+
+장 번호(1., 2., 3.) 대신 Markdown 헤딩(#, ##, ###)을 사용해주세요.
+
+# c.md
+
+현재 논문 내용을 검토하고,
+
+실제 연구 결과를 반영하기 위해 추가되어야 할 다음 항목들을 설계해주세요.
+
+추가 결과 섹션 24개 변수 배열 관찰 결과 대표 배열 분류 결과 변수 재배열 전후 패턴 비교 그림 목록
+
+논문에 필요한 모든 Figure 목록 작성
+
+표 목록
+
+논문에 필요한 모든 Table 목록 작성
+
+각 그림과 표에 대해:
+
+위치 목적 포함할 내용
+
+을 설명해주세요.
+
+또한 현재 논문 구조에서 가장 약한 부분과 보강이 필요한 부분을 지적해주세요.
