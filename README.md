@@ -57,12 +57,11 @@ This raises the question: *what is preserved?*
 3VariableRearrangementInvarianceMinorThesis-main/
 ├── README.md                                          ← This file
 ├── HANDOVER.md                                        ← Continuation guide for future contributors
-├── FUTURE_IDEAS.md                                    ← Out-of-scope ideas for future research
+├── HumanWritten.md                                    ← Work tracking and checklist
+├── index.html                                         ← GitHub Pages web presentation
 ├── paper/
 │   └── VariableRearrangementInvarianceMinorThesis.md  ← Main thesis (Korean)
-├── figures/                                           ← Figures and diagrams
-├── references/                                        ← References and citations
-└── notes/                                             ← Working notes and scratch analysis
+└── images/                                            ← Figures (31 image files)
 ```
 
 ---
@@ -134,10 +133,10 @@ README and HANDOVER are written in English for broader accessibility.
 ## Status
 
 - [x] Main thesis drafted
-- [x] Figure list prepared (`pictures.txt`)
-- [ ] Figures generated and placed in `figures/`
-- [ ] References formatted and placed in `references/`
-- [ ] Final review
+- [x] Figure list prepared — archived; 31 of 25 planned figures created
+- [x] Figures generated and placed in `images/` (31 files)
+- [x] References formatted and added to paper body (§참고문헌, [1]–[12]); `references/` folder removed
+- [x] Final review (2026-06-20, 작성자 확인 완료)
 
 ---
 

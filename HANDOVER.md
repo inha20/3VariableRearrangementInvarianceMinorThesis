@@ -172,15 +172,10 @@ Identified directions for continuation (details in `FUTURE_IDEAS.md`):
 |---|---|
 | `README.md` | Public-facing project overview for GitHub |
 | `HANDOVER.md` | This file — continuation guide |
-| `FUTURE_IDEAS.md` | Out-of-scope ideas preserved for future work |
+| `HumanWritten.md` | Work tracking and checklist |
+| `index.html` | GitHub Pages web presentation |
 | `paper/` | Main thesis document |
-| `figures/` | Figures (25 figures planned; see `pictures.txt` for full list) |
-| `references/` | Citations and references |
-| `notes/` | Working notes, drafts, scratch analysis |
-| `pictures.txt` | Detailed figure list with filenames, descriptions, placement notes |
-| `a.md` | Original project specification (keep as reference) |
-| `b.md` | Paper writing instructions (Korean format requirements) |
-| `c.md` | Additional content design instructions |
+| `images/` | Figures (31 image files; generated 2026-06-20) |
 
 ---
 
@@ -188,20 +183,20 @@ Identified directions for continuation (details in `FUTURE_IDEAS.md`):
 
 ### For a future AI model or researcher picking this up:
 
-1. **Read first:** This file (`HANDOVER.md`), `a.md`, and `paper/VariableRearrangementInvarianceMinorThesis.md`
-2. **Check outstanding items:** `c.md` describes additional result sections and figure/table lists to be added
-3. **Figure work:** `pictures.txt` has the full figure list (25 figures); figures need to be generated and placed in `figures/`
-4. **Scope discipline:** Do not expand the main body into cognitive science, AI perception, or educational topics — those go in `FUTURE_IDEAS.md`
+1. **Read first:** This file (`HANDOVER.md`) and `paper/VariableRearrangementInvarianceMinorThesis.md`
+2. **Figure work:** 31 figures are in `images/` — all generated, no creation needed
+3. **References:** Added directly to paper body (§참고문헌, [1]–[12]); no separate `references/` folder
+4. **Scope discipline:** Out-of-scope ideas (FUTURE_IDEAS, future_works) have been moved to `6BooleanFunctionSpaceTheory-main`
 5. **Change log:** If direction or structure changes, record it: note the previous approach, new approach, and reason (do not delete prior ideas)
 
 ### Priority remaining tasks:
 
-- [ ] Generate figures described in `pictures.txt` and place in `figures/`
-- [ ] Format and add references to `references/`
-- [ ] Expand `FUTURE_IDEAS.md` with ideas from `c.md`
-- [ ] Review `c.md` for additional result sections and table lists to incorporate
-- [ ] Final consistency review of paper
-- [ ] GitHub upload
+- [x] Generate figures — 31 figures created and placed in `images/` (2026-06-20)
+- [x] Format and add references — added directly to paper body §참고문헌 ([1]–[12]); `references/` folder removed (2026-06-20)
+- [x] `FUTURE_IDEAS.md` and `future_works/` — moved to `6BooleanFunctionSpaceTheory-main` (2026-06-20)
+- [x] `c.md` review — file not present in repository; skipped (2026-06-20)
+- [x] Final consistency review of paper (2026-06-20, 작성자 확인 완료)
+- [x] GitHub upload (2026-06-20, 완료)
 
 ---
 
@@ -234,11 +229,11 @@ Paper 4: Structure Recognition Theory   (이론적 허브 — 위 세 논문을 
 
 ### 현재 미완료 항목 (Summer 2026 우선 처리)
 
-- [ ] `figures/` 디렉터리에 25개 그림 생성 및 배치 (pictures.txt 참조)
-- [ ] `references/` 참고문헌 형식화
-- [ ] `FUTURE_IDEAS.md` — c.md의 아이디어로 확장
-- [ ] GitHub Pages 설정 (Research-Portfolio GitHub Pages 네트워크에 통합)
-- [ ] 최종 일관성 검토
+- [x] `images/` 디렉터리에 31개 그림 생성 및 배치 완료 (2026-06-20)
+- [x] 참고문헌 형식화 완료 — 본문 §참고문헌 ([1]–[12]) 직접 삽입; `references/` 삭제 (2026-06-20)
+- [x] `FUTURE_IDEAS.md` 및 `future_works/` — `6BooleanFunctionSpaceTheory-main`으로 이동 (2026-06-20)
+- [x] GitHub Pages 설정 (Research-Portfolio GitHub Pages 네트워크에 통합) (2026-06-20, 완료)
+- [x] 최종 일관성 검토 (2026-06-20, 작성자 확인 완료)
 
 ### 프로그램 핵심 문서 바로가기
 - [MasterHandoverDocument](../Research-Portfolio-main/ProjectManagement/MasterHandoverDocument.md)
