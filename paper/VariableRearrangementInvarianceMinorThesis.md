@@ -98,9 +98,9 @@ Gray Code를 사용하는 이유는 인접한 셀 사이에서 한 번에 하나
 
 따라서 변수 재배열은 하나의 함수를 여러 관점에서 관찰하기 위한 시각적 변환 과정으로 볼 수 있다.
 
-![그림 03-1](../images/figure03-1_variable_rearrangement_example..png)
-![그림 03-2](../images/figure03-2_variable_rearrangement_example..png)
-![그림 03-3](../images/figure03-3_variable_rearrangement_example..png)
+![그림 03-1](../images/figure03-1_variable_rearrangement_example.png)
+![그림 03-2](../images/figure03-2_variable_rearrangement_example.png)
+![그림 03-3](../images/figure03-3_variable_rearrangement_example.png)
 
 *그림 03: 변수 재배열 개념도 — 동일 XOR 함수에 대해 AB/CD → AC/BD → AD/BC 변환 흐름. 화살표로 배열 순서 연결, 함수값(진리표)은 동일하되 카르노맵 모양만 변화함을 표현.*
 
@@ -421,7 +421,7 @@ $$4! = 4 \times 3 \times 2 \times 1 = 24$$
 
 *그림 16: 24개 변수 배열에서 3가지 대표 배열로의 분류 결과. 24개 배열을 대표 배열 A(AB/CD), B(AC/BD), C(AD/BC)의 3그룹으로 분류하는 다이어그램.*
 
-![그림 17: 24개 변수 배열의 대표 배열 분류 전체 목록](../images/figure17_representative_arrangement_classes..png)
+![그림 17: 24개 변수 배열의 대표 배열 분류 전체 목록](../images/figure17_representative_arrangement_classes.png)
 
 *그림 17: 24개 변수 배열의 대표 배열 분류 전체 목록. 24가지 순열 각각이 어느 대표 배열 그룹에 속하는지 표로 정리.*
 
