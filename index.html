@@ -653,6 +653,8 @@
             <a href="https://inha20.github.io/4StructureRecognitionTheory/"><b>P4</b> Structure Recognition (SRT)</a>
             <a href="https://inha20.github.io/5HumanAIResearchCollaboration/"><b>P5</b> Human-AI Collaboration (HARCT)</a>
             <a href="https://inha20.github.io/6BooleanFunctionSpaceTheory/"><b>P6</b> Boolean Space & S₄ Theory</a>
+            <a href="https://inha20.github.io/7GroupTheoryBooleanUnification/"><b>P7</b> Group Theory Unification</a>
+            <a href="https://inha20.github.io/8StructuralThinkingInAIEra/"><b>P8</b> Structural Thinking in AI Era</a>
           </div>
         </div>
 
@@ -740,7 +742,7 @@
           체커보드, 대각선, 모서리, 고리, 블록 등 특징적인 시각 패턴을 형성하는 함수를 선정하여 가능한 변수 배열 24종($S_4$ 순열)을 체계적으로 비교하였다.
         </p>
         <p>
-          분석 결과, 변수 재배열에 따라 패턴의 위치·방향·대칭축은 변화하지만, 논리적 구조·1의 개수·패턴의 생성 원인은 유지됨을 확인하였다.
+          분석 결과, 완전대칭이 아닌 함수에서는 변수 재배열에 따라 패턴의 위치·방향·대칭축이 변화할 수 있고(완전대칭함수인 XOR·XNOR·Exactly-k의 그림은 24개 배열에서 모두 같다), 논리적 구조·1의 개수·패턴의 생성 원인은 유지됨을 확인하였다.
           본 연구는 구조적 불변성을 논리적·수량적·관계적·구조적 불변성으로 분류하는 탐색적 틀을 제안하며,
           변수 재배열을 구조 탐색 도구로 활용하는 방법론을 제시한다.
         </p>
@@ -764,7 +766,7 @@
             <li>• 카르노맵 상 패턴의 물리적 위치</li>
             <li>• 패턴의 기하학적 방향 (회전·반사)</li>
             <li>• 대칭축의 형태 (수평/수직/대각선)</li>
-            <li>• 시각적 배치 형태 (체커보드 ↔ 이중대각)</li>
+            <li>• 시각적 배치 형태 (완전대칭이 아닌 함수에 한함)</li>
             <li>• 인간이 인식하는 표면적 시각 형태</li>
           </ul>
         </div>
@@ -865,16 +867,16 @@
           <figcaption><strong>그림 04.</strong> 기본 배열(AB/CD)에서의 XOR 체커보드 패턴</figcaption>
         </figure>
         <figure class="academic-figure">
-          <img src="images/figure05_xor_checkerboard_rearranged.png" alt="그림 05: 변수 재배열 후 XOR 패턴">
-          <figcaption><strong>그림 05.</strong> 변수 재배열 후 XOR 패턴의 회전·대칭 불변 유지</figcaption>
+          <img src="images/figure05_xor_checkerboard_rearranged.png" alt="그림 05: 이진 축 순서로 그린 XNOR 패턴">
+          <figcaption><strong>그림 05.</strong> 이진 축 순서(00, 01, 10, 11)로 그린 XNOR 패턴 (그림 07과 모양이 다른 것은 변수 재배열이 아니라 축 라벨 순서 때문)</figcaption>
         </figure>
         <figure class="academic-figure">
           <img src="images/figure07_xnor_checkerboard_pattern.png" alt="그림 07: XNOR 체커보드 패턴">
           <figcaption><strong>그림 07.</strong> XNOR 함수의 기본 체커보드 패턴</figcaption>
         </figure>
         <figure class="academic-figure">
-          <img src="images/figure07-1_xnor_checkerboard_pattern.png" alt="그림 07-1: XNOR 체커보드 비교">
-          <figcaption><strong>그림 07-1.</strong> XNOR 함수의 변수 재배열 패턴 비교</figcaption>
+          <img src="images/figure07-1_xnor_checkerboard_pattern.png" alt="그림 07-1: 이진 축 순서의 XOR 패턴">
+          <figcaption><strong>그림 07-1.</strong> 이진 축 순서(00, 01, 10, 11)로 그린 XOR 패턴 (그림 07의 보수 함수)</figcaption>
         </figure>
       </div>
 
@@ -908,7 +910,7 @@
 
       <h3>3.3 대각선 패턴 (Diagonal Patterns)</h3>
       <p>
-        대각선 패턴은 변수 재배열에 의해 방향(↘, ↗)과 대칭축이 동적으로 변환된다.
+        아래 그림 12·13은 XOR/XNOR을 Gray 축 순서(체커보드)와 이진 축 순서(00, 01, 10, 11; 이중대각)로 각각 그린 것이며, 모양의 차이는 변수 재배열이 아니라 축 라벨 순서에서 온다. 완전대칭이 아닌 함수에서는 변수 재배열로 대각선 패턴의 방향이 바뀔 수 있다.
       </p>
 
       <div class="figure-grid">
@@ -922,19 +924,19 @@
         </figure>
         <figure class="academic-figure">
           <img src="images/figure13-1_diagonal_pattern_rearranged.png" alt="그림 13-1">
-          <figcaption><strong>그림 13-1.</strong> 재배열 후 대각선 패턴 변화 (A)</figcaption>
+          <figcaption><strong>그림 13-1.</strong> Gray 축 순서의 XOR 패턴</figcaption>
         </figure>
         <figure class="academic-figure">
           <img src="images/figure13-2_diagonal_pattern_rearranged.png" alt="그림 13-2">
-          <figcaption><strong>그림 13-2.</strong> 재배열 후 대각선 패턴 변화 (B)</figcaption>
+          <figcaption><strong>그림 13-2.</strong> 이진 축 순서의 XNOR 패턴</figcaption>
         </figure>
         <figure class="academic-figure">
           <img src="images/figure13-3_diagonal_pattern_rearranged.png" alt="그림 13-3">
-          <figcaption><strong>그림 13-3.</strong> 재배열 후 대각선 패턴 변화 (C)</figcaption>
+          <figcaption><strong>그림 13-3.</strong> Gray 축 순서의 XNOR 패턴</figcaption>
         </figure>
         <figure class="academic-figure">
           <img src="images/figure13-4_diagonal_pattern_rearranged.png" alt="그림 13-4">
-          <figcaption><strong>그림 13-4.</strong> 재배열 후 대각선 패턴 변화 (D)</figcaption>
+          <figcaption><strong>그림 13-4.</strong> 이진 축 순서의 XOR 패턴</figcaption>
         </figure>
       </div>
 

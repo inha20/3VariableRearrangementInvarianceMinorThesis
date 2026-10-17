@@ -8,7 +8,7 @@
 
 ## Abstract
 
-This minor thesis investigates the visual pattern transformations that occur in Karnaugh maps when variable arrangements are rearranged, and identifies the structural properties preserved through those transformations. The central concept — **structural invariance** (구조적 불변성) — refers to properties that remain unchanged regardless of how variables are permuted across the map axes. Through systematic analysis using permutation theory (S₄ group), the thesis demonstrates that while the visual layout of K-map patterns changes substantially under variable rearrangement, the underlying logical function, Hamming weight, causal origin of patterns, and fundamental structural relationships between cells are preserved. Variable rearrangement is proposed as a tool for revealing hidden structural properties in Boolean functions. This work constitutes the third empirical case study in the Structure Recognition Research Program, extending the series from visual pattern discovery (Paper 1) and symmetric function structure (Paper 2) to structural invariance under transformation.
+This minor thesis investigates the visual pattern transformations that occur in Karnaugh maps when variable arrangements are rearranged, and identifies the structural properties preserved through those transformations. The central concept — **structural invariance** (구조적 불변성) — refers to properties that remain unchanged regardless of how variables are permuted across the map axes. Through systematic analysis using permutation theory (S₄ group), the thesis demonstrates that while the visual layout of K-map patterns can change under variable rearrangement only for functions that are not totally symmetric (totally symmetric functions such as XOR, XNOR and Exactly-k give the identical picture in all 24 arrangements), the underlying logical function, Hamming weight, causal origin of patterns, and fundamental structural relationships between cells are preserved. Variable rearrangement is proposed as a tool for revealing hidden structural properties in Boolean functions. This work constitutes the third empirical case study in the Structure Recognition Research Program, extending the series from visual pattern discovery (Paper 1) and symmetric function structure (Paper 2) to structural invariance under transformation.
 
 ---
 
@@ -54,10 +54,10 @@ This raises the question: *what is preserved?*
 ## Repository Structure
 
 ```
-3VariableRearrangementInvarianceMinorThesis-main/
+3VariableRearrangementInvarianceMinorThesis/
 ├── README.md                                          ← This file
 ├── HANDOVER.md                                        ← Continuation guide for future contributors
-├── HumanWritten.md                                    ← Work tracking and checklist
+├── TODO.md                                            ← Work tracking and checklist
 ├── index.html                                         ← GitHub Pages web presentation
 ├── paper/
 │   └── VariableRearrangementInvarianceMinorThesis.md  ← Main thesis (Korean)
@@ -98,7 +98,7 @@ Under variable rearrangement:
 
 ## Future Research Directions
 
-The following are identified as promising future directions (see `FUTURE_IDEAS.md` for details):
+The following are identified as promising future directions (see `6BooleanFunctionSpaceTheory/TODO.md` §미래 연구 (FutureWorks) and `6BooleanFunctionSpaceTheory/theory/S4GroupAnalysis.md` for details):
 
 - Mathematical modeling using symmetric groups (S₄ permutations)
 - Rotation and reflection invariance analysis
@@ -116,7 +116,7 @@ The following are identified as promising future directions (see `FUTURE_IDEAS.m
             ↓
 2SymmetricBooleanFunctionMinorThesis
             ↓
-3VariableRearrangementInvariance  ← (This repository)
+3VariableRearrangementInvarianceMinorThesis  ← (This repository)
             ↓
   [Future: Human Structural Recognition]
 ```
@@ -152,7 +152,7 @@ This repository is part of the **Structure Recognition Research Program**.
 | [3VariableRearrangementInvarianceMinorThesis](https://github.com/inha20/3VariableRearrangementInvarianceMinorThesis) | Empirical Case Study 3 ← You are here |
 | [4StructureRecognitionTheory](https://github.com/inha20/4StructureRecognitionTheory) | Theoretical Hub |
 
-**Master Handover Document:** [MasterHandoverDocument.md](https://github.com/inha20/Research-Portfolio/blob/main/ProjectManagement/MasterHandoverDocument.md)
+**AI 단일 진입점:** [SESSION_START.md](https://github.com/inha20/inha20/blob/main/SESSION_START.md)
 
 ---
 

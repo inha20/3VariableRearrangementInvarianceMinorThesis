@@ -19,10 +19,10 @@ This is the **third** in a series of minor theses exploring visual patterns and 
 
 ### How This Project Emerged
 
-**1st thesis — 1KarnaughMapVisualPatternAnalysisMinorThesis**  
+**1st thesis — 1KMapStructureInvariance**  
 Initiated the visual approach to Karnaugh maps: instead of treating K-maps only as logic minimization tools, this project identified that certain Boolean functions produce distinctive visual patterns (checkerboard, corner, ring, block, diagonal).
 
-**2nd thesis — 2SymmetricBooleanFunctionVisualPatternAnalysisMinorThesis**  
+**2nd thesis — 2SymmetricBooleanFunctionMinorThesis**  
 Focused specifically on symmetric Boolean functions (Exactly-k, XOR, XNOR, etc.) and analyzed their characteristic visual patterns and structural properties in detail.
 
 **3rd thesis — This repository**  
@@ -75,7 +75,7 @@ This thesis examines what is invariant across all 24 arrangements.
 - Pattern transformation behavior under rearrangement (5 pattern types analyzed)
 - Structural invariance — what is preserved across all arrangements
 
-### Intentionally Out of Scope → FUTURE_IDEAS.md
+### Intentionally Out of Scope → 6BooleanFunctionSpaceTheory/TODO.md
 - Human cognition and visual perception
 - AI intuition and pattern recognition
 - Educational applications of K-maps
@@ -153,7 +153,7 @@ These are **hypotheses based on observation, not confirmed conclusions**:
 
 ## Future Research Connections
 
-Identified directions for continuation (details in `FUTURE_IDEAS.md`):
+Identified directions for continuation (see `6BooleanFunctionSpaceTheory/TODO.md` §미래 연구 (FutureWorks) and `6BooleanFunctionSpaceTheory/theory/S4GroupAnalysis.md`):
 
 | Topic | Connection |
 |---|---|
@@ -172,7 +172,7 @@ Identified directions for continuation (details in `FUTURE_IDEAS.md`):
 |---|---|
 | `README.md` | Public-facing project overview for GitHub |
 | `HANDOVER.md` | This file — continuation guide |
-| `HumanWritten.md` | Work tracking and checklist |
+| `TODO.md` | Work tracking and checklist |
 | `index.html` | GitHub Pages web presentation |
 | `paper/` | Main thesis document |
 | `images/` | Figures (31 image files; generated 2026-06-20) |
@@ -186,14 +186,14 @@ Identified directions for continuation (details in `FUTURE_IDEAS.md`):
 1. **Read first:** This file (`HANDOVER.md`) and `paper/VariableRearrangementInvarianceMinorThesis.md`
 2. **Figure work:** 31 figures are in `images/` — all generated, no creation needed
 3. **References:** Added directly to paper body (§참고문헌, [1]–[12]); no separate `references/` folder
-4. **Scope discipline:** Out-of-scope ideas (FUTURE_IDEAS, future_works) have been moved to `6BooleanFunctionSpaceTheory-main`
+4. **Scope discipline:** Out-of-scope ideas (FUTURE_IDEAS, future_works) have been moved to `6BooleanFunctionSpaceTheory` and later absorbed into its `TODO.md` (§미래 연구, §보존된 세부 연구 자료); the separate files no longer exist there
 5. **Change log:** If direction or structure changes, record it: note the previous approach, new approach, and reason (do not delete prior ideas)
 
 ### Priority remaining tasks:
 
 - [x] Generate figures — 31 figures created and placed in `images/` (2026-06-20)
 - [x] Format and add references — added directly to paper body §참고문헌 ([1]–[12]); `references/` folder removed (2026-06-20)
-- [x] `FUTURE_IDEAS.md` and `future_works/` — moved to `6BooleanFunctionSpaceTheory-main` (2026-06-20)
+- [x] `FUTURE_IDEAS.md` and `future_works/` — moved to `6BooleanFunctionSpaceTheory` (2026-06-20); later absorbed into `6BooleanFunctionSpaceTheory/TODO.md` and removed there as separate files (2026-06-27)
 - [x] `c.md` review — file not present in repository; skipped (2026-06-20)
 - [x] Final consistency review of paper (2026-06-20, 작성자 확인 완료)
 - [x] GitHub upload (2026-06-20, 완료)
@@ -231,14 +231,14 @@ Paper 4: Structure Recognition Theory   (이론적 허브 — 위 세 논문을 
 
 - [x] `images/` 디렉터리에 31개 그림 생성 및 배치 완료 (2026-06-20)
 - [x] 참고문헌 형식화 완료 — 본문 §참고문헌 ([1]–[12]) 직접 삽입; `references/` 삭제 (2026-06-20)
-- [x] `FUTURE_IDEAS.md` 및 `future_works/` — `6BooleanFunctionSpaceTheory-main`으로 이동 (2026-06-20)
+- [x] `FUTURE_IDEAS.md` 및 `future_works/` — `6BooleanFunctionSpaceTheory`으로 이동 (2026-06-20); 이후 `6BooleanFunctionSpaceTheory/TODO.md`에 흡수되어 별도 파일로는 남아 있지 않음 (2026-06-27)
 - [x] GitHub Pages 설정 (Research-Portfolio GitHub Pages 네트워크에 통합) (2026-06-20, 완료)
 - [x] 최종 일관성 검토 (2026-06-20, 작성자 확인 완료)
 
 ### 프로그램 핵심 문서 바로가기
-- [MasterHandoverDocument](../Research-Portfolio-main/ProjectManagement/MasterHandoverDocument.md)
-- [ResearchProgramArchitecture](../Research-Portfolio-main/ProjectManagement/ResearchProgramArchitecture.md)
-- [Structure Recognition Theory v0.1](../4StructureRecognitionTheory-main/theory/StructureRecognitionTheory_v0.1.md)
-- [Paper 4 HANDOVER](../4StructureRecognitionTheory-main/HANDOVER.md)
+- [MasterHandoverDocument → SESSION_START.md](../inha20/SESSION_START.md)
+- [ResearchProgramArchitecture → SESSION_START.md](../inha20/SESSION_START.md)
+- [Structure Recognition Theory (Unified)](../inha20/StructureRecognitionTheory_Unified.md)
+- [Paper 4 HANDOVER](../4StructureRecognitionTheory/HANDOVER.md)
 
 *아키텍처 교차 참조 최종 갱신: 2026-06-05*
