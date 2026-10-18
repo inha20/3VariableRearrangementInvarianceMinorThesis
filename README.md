@@ -10,7 +10,7 @@
 
 ## Abstract
 
-This minor thesis investigates the visual pattern transformations that occur in Karnaugh maps when variable arrangements are rearranged, and identifies the structural properties preserved through those transformations. The central concept — **structural invariance** (구조적 불변성) — refers to properties that remain unchanged regardless of how variables are permuted across the map axes. Through systematic analysis using permutation theory (S₄ group), the thesis demonstrates that while the visual layout of K-map patterns can change under variable rearrangement only for functions that are not totally symmetric (totally symmetric functions such as XOR, XNOR and Exactly-k give the identical picture in all 24 arrangements), the underlying logical function, Hamming weight, causal origin of patterns, and fundamental structural relationships between cells are preserved. Variable rearrangement is proposed as a tool for revealing hidden structural properties in Boolean functions. This work constitutes the third empirical case study in the Structure Recognition Research Program, extending the series from visual pattern discovery (Paper 1) and symmetric function structure (Paper 2) to structural invariance under transformation.
+This minor thesis investigates the visual pattern transformations that occur in Karnaugh maps when variable arrangements are rearranged, and identifies the structural properties preserved through those transformations. The central concept — **structural invariance** (구조적 불변성) — refers to properties that remain unchanged regardless of how variables are permuted across the map axes. Through observation of selected patterns across the 24 variable arrangements (S₄ permutations; no formal group-theoretic analysis is carried out yet), the thesis observes that while the visual layout of K-map patterns can change under variable rearrangement only for functions that are not totally symmetric (totally symmetric functions such as XOR, XNOR and Exactly-k give the identical picture in all 24 arrangements), the underlying logical function, Hamming weight, causal origin of patterns, and fundamental structural relationships between cells are preserved. Variable rearrangement is proposed as a tool for revealing hidden structural properties in Boolean functions. This work constitutes the third empirical case study in the Structure Recognition Research Program, extending the series from visual pattern discovery (Paper 1) and symmetric function structure (Paper 2) to structural invariance under transformation.
 
 ---
 
@@ -38,7 +38,7 @@ variable rearrangement, structural invariance, Karnaugh map, Boolean function, v
 
 Traditional Karnaugh map research focuses primarily on logic minimization. However, Karnaugh maps also serve as visual representations of Boolean function structure.
 
-Certain Boolean functions form distinctive visual patterns — checkerboards, corners, rings, blocks, and diagonals — that may reflect the internal structure of the function. When variables are rearranged, these patterns change, but **not all structural properties change with them**.
+Certain Boolean functions form distinctive visual patterns — checkerboards, corners, rings, blocks, and diagonals — that may reflect the internal structure of the function. When variables are rearranged, the picture of a function that is not totally symmetric can change (the checkerboard, corner and ring patterns, which come from totally symmetric functions, do not), but **not all structural properties change with them**.
 
 This raises the question: *what is preserved?*
 
@@ -72,7 +72,7 @@ This raises the question: *what is preserved?*
 
 Under variable rearrangement:
 
-**What changes:**
+**What changes (only for functions that are not totally symmetric; totally symmetric functions such as XOR, XNOR and Exactly-k look identical in all 24 arrangements):**
 
 - Position of patterns on the K-map grid
 - Orientation and direction of patterns
@@ -104,7 +104,7 @@ The following are identified as promising future directions (see `6BooleanFuncti
 
 - Mathematical modeling using symmetric groups (S₄ permutations)
 - Rotation and reflection invariance analysis
-- Equivalence classes of variable arrangements
+- Group-theoretic proof of the 24 -> 3 equivalence classes of variable arrangements (the classification is only displayed in Figures 16-17 and on index.html, not proved here)
 - Formal definition and proof of structural invariance
 - Human structural recognition in Karnaugh map patterns
 - Human-AI collaboration in structural pattern discovery
@@ -135,7 +135,7 @@ README and HANDOVER are written in English for broader accessibility.
 ## Status
 
 - [x] Main thesis drafted
-- [x] Figure list prepared — archived; 31 of 25 planned figures created
+- [x] Figure list prepared — archived; 31 figure files created (25 were planned)
 - [x] Figures generated and placed in `images/` (31 files)
 - [x] References formatted and added to paper body (§참고문헌, [1]–[12]); `references/` folder removed
 - [x] Final review (2026-06-20, 작성자 확인 완료)

@@ -701,7 +701,7 @@
       <!-- Hero Action Bar -->
       <div class="action-bar">
         <a href="paper/01_VariableRearrangementInvarianceMinorThesis.pdf" class="btn btn-primary" download title="논문 PDF 다운로드">
-          <span>📄 논문 PDF 다운로드 (26p · 353KB)</span>
+          <span>📄 논문 PDF 다운로드 (26p · 359KB)</span>
         </a>
         <a href="https://github.com/inha20/3VariableRearrangementInvarianceMinorThesis" target="_blank" rel="noopener" class="btn btn-secondary">
           <span>💻 GitHub 리포지토리</span>
@@ -743,7 +743,7 @@
         </p>
         <p>
           분석 결과, 완전대칭이 아닌 함수에서는 변수 재배열에 따라 패턴의 위치·방향·대칭축이 변화할 수 있고(완전대칭함수인 XOR·XNOR·Exactly-k의 그림은 24개 배열에서 모두 같다), 논리적 구조·1의 개수·패턴의 생성 원인은 유지됨을 확인하였다.
-          본 연구는 구조적 불변성을 논리적·수량적·관계적·구조적 불변성으로 분류하는 탐색적 틀을 제안하며,
+          본 연구는 구조적 불변성을 논리적·수량적·관계적 불변성 및 패턴 핵심 구조의 불변성으로 분류하는 탐색적 틀을 제안하며,
           변수 재배열을 구조 탐색 도구로 활용하는 방법론을 제시한다.
         </p>
       </div>
@@ -790,7 +790,7 @@
         </figure>
         <figure class="academic-figure">
           <img src="images/figure02_variable_arrangement_examples.png" alt="그림 02: 대표 변수 배열 3종 비교">
-          <figcaption><strong>그림 02.</strong> 대표 변수 배열 3종 (AB/CD, AC/BD, AD/BC) 구조 비교</figcaption>
+          <figcaption><strong>그림 02.</strong> 24개 변수 배열의 동치류 i, ii, iii 분류표 (대표 배열 AB/CD, AC/BD, AD/BC)</figcaption>
         </figure>
       </div>
 
@@ -844,7 +844,7 @@
           <tbody>
             <tr><td><strong>셀 개수</strong></td><td>수량적</td><td>1이 존재하는 셀 수 (Hamming Weight 보존)</td></tr>
             <tr><td><strong>패턴 형태</strong></td><td>시각적</td><td>점, 선, 블록, 체커보드, 대각선 등</td></tr>
-            <tr><td><strong>대칭성</strong></td><td>구조적</td><td>대칭 구조 유지 여부 및 대칭축 변화</td></tr>
+            <tr><td><strong>대칭성</strong></td><td>관계적</td><td>대칭 구조 유지 여부 및 대칭축 변화</td></tr>
             <tr><td><strong>연결성</strong></td><td>관계적</td><td>인접 관계 및 연결 구조 유지 여부</td></tr>
             <tr><td><strong>위치/방향</strong></td><td>시각적</td><td>평면 상 이동, 회전, 반사</td></tr>
           </tbody>
@@ -942,7 +942,7 @@
 
       <h3>3.4 모서리 & 고리 & 블록 패턴</h3>
       <p>
-        Exactly-1, Exactly-3의 모서리 패턴과 Exactly-2의 고리 패턴, 특정 변수 결합의 블록 패턴 비교.
+        Exactly-1, Exactly-3의 모서리 패턴(토러스 위에서 각각 $m_0$, $m_{15}$의 네 이웃 셀이며 절대 위치의 네 모서리가 아님)과 Exactly-2의 고리 패턴, 특정 변수 결합의 블록 패턴 비교.
       </p>
 
       <div class="figure-grid">
@@ -1031,7 +1031,7 @@
       </div>
       <p>
         변수 재배열은 단순한 순서 변경이 아니라, <strong>함수의 심층 구조를 드러내는 투영 각도(projection angle)의 변경</strong>이다.
-        여러 배열을 교차 탐색함으로써 인간은 특정 표현의 착시를 제거하고 함수의 내재적 대칭 구조를 객관적으로 파악할 수 있다.
+        여러 배열을 교차 탐색하면 특정 표현의 착시를 줄이고 함수의 내재적 대칭 구조를 파악하는 데 도움이 될 가능성이 있다(인간 대상 검증은 향후 과제).
       </p>
     </section>
 
@@ -1046,8 +1046,8 @@
       <ul style="padding-left: 1.5rem; line-height: 1.85; margin: 1.5rem 0; color: var(--text);">
         <li>카르노맵을 단순 논리식 최소화 도구를 넘어 시각적 불변 구조 탐색 대상으로 확장</li>
         <li>변수 재배열에 따른 시각 패턴 변화와 유지 요소의 체계적 분류 (논리·수량·관계·구조)</li>
-        <li>24개 $S_4$ 순열을 3개 대표 배열로 축약하는 군론적 분류 실증</li>
-        <li>인지과학 및 Structure Recognition Theory (Paper 4)의 경험적 토대 구축</li>
+        <li>24개 변수 배열을 3개 대표 배열로 나누는 분류의 제시 (군론적 증명은 향후 과제)</li>
+        <li>Structure Recognition Theory (Paper 4)를 위한 예비적 관찰 사례 제공(인간 인지 실험은 수행하지 않음)</li>
       </ul>
     </section>
 
