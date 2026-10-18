@@ -110,12 +110,13 @@ Main paper location: `paper/VariableRearrangementInvarianceMinorThesis.md`
 - 비교 기준 — Comparison table (cell count, pattern shape, symmetry, connectivity, position, direction)
 
 **변수 재배열에 따른 패턴 변화 분석 (Pattern Change Analysis)**
-- 체커보드 패턴 — XOR/XNOR; direction changes but repetition structure persists
+- 체커보드 패턴 — XOR/XNOR; 변수 배치를 바꿔도 24가지 배치 모두에서 같은 그림이다. 모양이 달라지는 것은 축 라벨 순서를 Gray에서 이진으로 바꿀 때뿐이다 (7번 논문 명제 1, 2)
 - 대각선 패턴 — May transform into block or repetition structure under rearrangement
 - 모서리 패턴 — Corner positions may shift; logical structure retained
 - 고리 패턴 — Ring shape may deform; Hamming weight layer structure preserved
 - 블록 패턴 — Position changes; block size and logical relationship preserved
 - 소결 — Position/orientation changes; some structure persists
+- 정정(2026-10-18): 위 항목 중 완전 대칭 함수(체커보드 XOR/XNOR, Exactly-k의 모서리·고리 패턴)의 그림은 변수 배치에 따라 변하지 않는다. 배치에 따라 그림이 달라지는 것은 비대칭 함수뿐이며(7번 논문 3.5절), 축 라벨 순서에 따른 변화와 구별해야 한다.
 
 **구조적 불변성 분석 (Structural Invariance Analysis)**
 - 변화하는 요소 — Position, orientation, symmetry axis
