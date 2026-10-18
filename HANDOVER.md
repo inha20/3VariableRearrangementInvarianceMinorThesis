@@ -237,9 +237,9 @@ Paper 4: Structure Recognition Theory   (이론적 허브 — 위 세 논문을 
 - [x] 최종 일관성 검토 (2026-06-20, 작성자 확인 완료)
 
 ### 프로그램 핵심 문서 바로가기
-- [MasterHandoverDocument → SESSION_START.md](../inha20/SESSION_START.md)
-- [ResearchProgramArchitecture → SESSION_START.md](../inha20/SESSION_START.md)
-- [Structure Recognition Theory (Unified)](../inha20/StructureRecognitionTheory_Unified.md)
-- [Paper 4 HANDOVER](../4StructureRecognitionTheory/HANDOVER.md)
+- [MasterHandoverDocument → SESSION_START.md](https://github.com/inha20/inha20/blob/main/SESSION_START.md)
+- [ResearchProgramArchitecture → SESSION_START.md](https://github.com/inha20/inha20/blob/main/SESSION_START.md)
+- [Structure Recognition Theory (Unified)](https://github.com/inha20/inha20/blob/main/StructureRecognitionTheory_Unified.md)
+- [Paper 4 HANDOVER](https://github.com/inha20/4StructureRecognitionTheory/blob/main/HANDOVER.md)
 
 *아키텍처 교차 참조 최종 갱신: 2026-06-05*
