@@ -3,7 +3,7 @@
 **Variable-Rearrangement-Based Interpretation of Karnaugh Map Patterns**
 
 **저자:** 최종훈  
-**연구자 정보:** 인하공업전문대학 출신 · 독립 연구자
+**연구자 정보:** 인하공업전문대학 2학년 재학 · 독립 연구자
 
 ---
 
